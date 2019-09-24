@@ -1,0 +1,52 @@
+body {
+  margin: 0 auto;
+  font-family: "serif";
+  font-size: 1.4rem;
+  background-color: rgb(226, 222, 222);
+  overflow: hidden;
+}
+
+h2 {
+  font-family: 'Roboto';
+  color: #424242;
+}
+
+main {
+  padding: 8px;
+}
+
+h6 {
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+header {
+  display: block;
+  font-size: 1.5rem;
+  border: solid 5px  transparent;
+  background: #EEEEEE;
+  z-index: inherit;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li a {
+  text-decoration: none;
+  flex: inherit;
+  text-align: center;
+  color: #212121;
+}
+
+li {
+  margin: 20px auto;
+  padding: 40px;
+  border-radius: 8px;
+  width: 240px;
+  background: #F5F5F5;
+}
