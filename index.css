@@ -62,27 +62,24 @@ main {
   
   main {
     display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-between;
+    flex-flow: wrap;
+    justify-content: space-evenly;
     padding: 8px;
     padding-top: 100px;  
   }
-  
-  h6 {
-    margin-top: 10px;
-  }
 
   .box {
-    text-decoration: none;
-    padding: 70px;
-    margin: 20 auto;
+    width: 200px;
+    height: 150px;    
+    padding: 25px;
     border-radius: 4px;
     border: thin 3px #000;
-    text-align: center;
   }
   
   .box a {
     text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
   }
 
   header {
